@@ -20,19 +20,19 @@
 - No es necesario desplegar estos artefactos en ningun lugar, sin embargo se considerará como 10 puntos extras.
 
 ## Descripción de la prueba
-    El objetivo de esta prueba es construir una aplicación básica para guardar clientes con su geolocalización en una base de datos. 
+El objetivo de esta prueba es construir una aplicación básica para guardar clientes con su geolocalización en una base de datos. 
     
 #### Back-end
-    - Debes crear una API REST con NodeJS 
-    - Debe permitir un CRUD de clientes con su geolocalización
-    - Debe obtener la latitud y longitud basados en una dirección
-    - Crear la base de datos para almacenar los datos del CRUD con MySQL
+- Debes crear una API REST con NodeJS 
+- Debe permitir un CRUD de clientes con su geolocalización
+- Debe obtener la latitud y longitud basados en una dirección
+- Crear la base de datos para almacenar los datos del CRUD con MySQL
 
 #### Front-end
-    - Se debe generar una aplicación con Ionic y Angular dentro de la carpeta `frontend` que permita mostrar un mapa de Google Maps. Debe funcionar de la siguiente manera
-    - Se debe crear un service llamado `ApiService` que permita realizar las llamadas al único endpoint disponible en el backend creado previamente.
-    - El componente debe mostrar un mapa utilizando la librería oficial de [Google Maps de Angular](https://www.npmjs.com/package/@angular/google-maps).
-    - Se debe ver a los clientes creados como una lista respetando el formato de la imagen. El mapa debe verse en el apartado *image cap* ![image](https://github.com/user-attachments/assets/4cafe624-1548-416c-971d-453a0ab526f0)
+- Se debe generar una aplicación con Ionic y Angular dentro de la carpeta `frontend` que permita mostrar un mapa de Google Maps. Debe funcionar de la siguiente manera
+- Se debe crear un service llamado `ApiService` que permita realizar las llamadas al único endpoint disponible en el backend creado previamente.
+- El componente debe mostrar un mapa utilizando la librería oficial de [Google Maps de Angular](https://www.npmjs.com/package/@angular/google-maps).
+- Se debe ver a los clientes creados como una lista respetando el formato de la imagen. El mapa debe verse en el apartado *image cap* ![image](https://github.com/user-attachments/assets/4cafe624-1548-416c-971d-453a0ab526f0)
     
 
 ## Criterios de evaluación
